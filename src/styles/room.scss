@@ -1,0 +1,169 @@
+#page-room{
+    
+    //background: #b4b3b4;
+    
+    header{
+        padding: 2px;
+        border-bottom: 1px solid #e2e2e2;
+        //background: linear-gradient(#820cff, #a354f6,#a591ba);
+        background: linear-gradient(to right, #565656, #696666,#a7a6a6,#696666);
+
+        .content{
+            max-width: auto;
+            margin: 12px auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            //max-height: 41px;
+            .img-hover{
+                cursor: pointer;
+            }
+            
+            .button-logout-container{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                &:hover{
+                    cursor: pointer;
+                }
+                
+            }
+            
+            
+            
+
+            > img{
+                max-height: 51px;
+            }
+
+            >div{
+                display: flex;
+                gap: 16px;
+                button{
+                    height: 41px;
+                }
+            }
+
+        }
+        
+    }
+
+    main{
+        max-width: 800px;
+        margin: 0 auto;
+        
+
+        .room-title{
+            margin: 32px 0 24px;
+            display: flex;
+            align-items: center;
+
+            h1{
+                font-family: 'Poppins', sans-serif ;
+                font-size: 24px;
+                color: #29292e;
+
+            }
+
+            span{
+                margin-left: 16px;
+                background: #e559f9;
+                border-radius: 9999px;
+                padding: 8px 16px;
+                color: #fff;
+                font-weight: 500;
+                font-size: 14px;
+            }
+        }
+
+        form{
+            textarea{
+                width: 100%;
+                border: 0;
+                padding: 16px;
+                border-radius: 8px;
+                background: #fefefe;
+                box-shadow: 0 2px 12px rgba(0,0,0,0.4);
+                resize: vertical;
+                min-height: 130px;
+                max-height: 235px;
+            }
+
+            .form-footer{
+                display: flex;
+                //flex: 1;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 16px;
+                margin-bottom: 32px;
+                .user-info{
+                    display: flex;
+                    align-items: center;
+
+                    > div{
+                        display: flex;
+                        gap: 16px;
+                    }
+
+                    img{
+                        width: 35px;
+                        height: auto;
+                        border-radius: 50%;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                    > span {
+                        margin-left: 8px;
+                        //margin-right: 8px;
+                        color: #29292e;
+                        font-weight: 500;
+                        font-size: 14px;
+                    }
+                }
+
+                span{
+                    font-size: 14px;
+                    color: #737388;
+                    font-weight: 500;
+    
+                    button{
+                        background-color: transparent;
+                        border: 0;
+                        color: #835afd;
+                        text-decoration: underline;
+                        font-size: 14;
+                        font-weight: 500;
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .question-list{
+                margin-top: 32px;
+                //color: #111;
+                //gap: 6;
+                .span-like{
+                    color: #111;
+                }
+
+                .replay-question{
+                    margin-top: 25px;
+                    padding: 15px;
+                    background: #e3e
+                }
+                
+            }
+
+            
+
+
+            
+
+            
+                     
+        }
+    }
+}
