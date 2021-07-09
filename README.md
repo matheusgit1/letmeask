@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+# Let Me Ask 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Sobre o projeto
 
-## Available Scripts
+Let Me Ask, Foi um projeto desenvolvido durante a next level week - togheter, da rockeseat. o projeto consiste em salas de perguntas e respostas, onde um admin (criador da sala pode responder a uma pergunta, excluri uma pergunta da mesma sala, a marcar um pergunta como em destaque, gerando uma discussão entre os usuarios naquele espaço, qe é didicado a um tema.
 
-In the project directory, you can run:
+A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Layout web
+crie seu ambiente
+![Web 1](https://github.com/matheusgit1/letmeask/blob/main/src/pages_let_me_ask/page1.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `yarn test`
+basta esperar as perguntas surgirem
+![Web 2](https://github.com/matheusgit1/letmeask/blob/main/src/pages_let_me_ask/page2.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+marque uma pergunta com respondida e mantenha ela destacada
+![Web 3](https://github.com/matheusgit1/letmeask/blob/main/src/pages_let_me_ask/page3.png)
 
-### `yarn build`
+perguntas respondidas ficam com um destaque diferente
+![Web 4](https://github.com/matheusgit1/letmeask/blob/main/src/pages_let_me_ask/page4.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Tecnologias utilizadas
+## Back end
+- javaScript
+- firebase
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Front end
+- HTML / CSS / JS / TypeScript
+- ReactJS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## Front end web
+Pré-requisitos: npm / yarn
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+# clonar repositório
+git clone https://github.com/matheusgit1/letmeask
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# entrar na pasta do projeto front end web
+cd letmeask
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# instalar dependências
+yarn install
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# executar o projeto
+yarn start
+```
 
-## Learn More
+# Autor
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Matheus Alves Pereira
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+https://www.linkedin.com/in/matheus-pereira-51ab8520a/
+
